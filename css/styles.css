@@ -1,0 +1,242 @@
+body {
+    font-family: 'Roboto';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --best-color: #2196F3;
+    --head-color: #212121;
+    --t-color: #757575;
+    --dark-color: #2F303A;
+}
+
+.blue {
+    color: var(--best-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+button:hover,
+button:focus {
+    color: white;
+    background-color: var(--best-color);
+    border-radius: 4px;
+}
+
+.header {
+    background-color: white;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.header-nav .item {
+    color: var(--head-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-list .mail,
+.tel {
+    color: var(--t-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-logo:hover,
+.header-logo:focus,
+.tel:hover,
+.tel:focus,
+.item:hover,
+.item:focus,
+.item.current {
+    color: var(--best-color);
+}
+
+.header-nav a:active{
+    color: var(--best-color);
+}
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--best-color);
+}
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: #FFFFFF;
+}
+
+.hero {
+    background-color: var(--dark-color);
+}
+
+.hero-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: white;
+    border-radius: 4px;
+    background-color: var(--best-color);
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+.texter-list .head {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--head-color);
+}
+
+.texter-list .par {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--t-color);
+}
+
+.we-do-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--head-color);
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list .img {
+    border-radius: 0px;
+}
+
+.team-list .head {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--head-color);
+}
+
+.team-list .par {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--t-color);
+}
+
+.main-options-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--head-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.pics-list .head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--head-color);
+}
+
+.pics-list .par {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--t-color);
+}
