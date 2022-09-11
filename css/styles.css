@@ -23,6 +23,10 @@ body {
     color: var(--primary-color);
 }
 
+img {
+    display: block;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -107,11 +111,17 @@ p{
 
 
 /* Header Section  */
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+header a {
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
 .header-wrapper {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo {
@@ -211,6 +221,7 @@ p{
 .benefits__paragraph {
     line-height: 1.71;
     color: var(--secondary-color);
+    width: 270px;
 }
 
 /* Profile Section  */
@@ -252,6 +263,10 @@ p{
     gap: 30px;
 }
 
+.members__container {
+    padding: 30px 15px;
+}
+
 .members-list li {
     background-color: white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -263,7 +278,6 @@ p{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -272,16 +286,13 @@ p{
     line-height: 1.18;
     text-align: center;
     color: var(--secondary-color);
-    margin-bottom: 30px;
 }
 
 /* Footer Section  */
 
-.footer {
+footer {
     background-color: var(--dark-color);
-}
-
-.footer-wraper {
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -291,17 +302,18 @@ p{
     font-size: 26px;
     line-height: 1.19;
     color: var(--primary-white);
-    margin-bottom: 32px;
-    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .footer-address {
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     color: var(--primary-white);
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+}
+
+.footer-address a {
+    display: block;
+    margin-top: 9px;
 }
 
 .address-item {
@@ -319,6 +331,7 @@ p{
     justify-content: center;
     gap: 8px;
     padding-bottom: 0;
+    margin-bottom: 50px;
 }
 
 .options__button {
@@ -341,18 +354,17 @@ p{
 }
 
 /* Partners section */
-.partners {
-    padding-top: 50px;
-}
-
 .partners__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.partners__list > li {
-    /* border: 1px solid #EEEEEE; */
+.partners__container {
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .partners__title {
@@ -360,13 +372,11 @@ p{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-left: 24px;
+    margin-bottom: 4px;
 }
 
 .partners__paragraph {
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-color);
-    margin-left: 24px;
 }
